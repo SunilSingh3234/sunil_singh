@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style> .navbar a{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }</style>
+    <title>service page</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo">Sunil Singh</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="/" class="active">Home</a>
+        </nav>
+    </header>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-scatter-chart'></i>
+                <h3>Data Scientist</h3>
+                <p>I specialize in data cleaning, testing, and model training to effectively solve complex problems using machine learning techniques, ensuring high-quality, actionable insights from real-world data</p>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Development</h3>
+                <p>I design and develop full-stack websites using HTML, CSS, JavaScript, and Python, creating responsive, user-friendly sites tailored to meet your specific needs..</p>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bx-image-alt'></i>
+                <h3>Photo Editing</h3>
+                <p>I am also skilled in photo and video editing, which is both a passion and a hobby. I approach photo editing with a professional mindset, delivering high-quality, visually appealing results</p>
+                    
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy;2025 by Sunil Singh | All Rights Reserved.</p>
+            </div>
+            
+        </footer>
+
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>

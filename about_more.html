@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>about page</title>
+    <style>
+        .about-content .heading {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .navbar a {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .about-content h6{
+            text-align: center; /* Centers the text horizontally */
+    font-size: 2.5rem; /* Adjust size as needed (e.g., 2rem, 3rem, etc.) */
+    margin: 20px 0;
+    margin: 0 auto; /* Centers the heading block if width is set */
+    padding: 0; 
+    color: aqua;
+        }
+        .about-content h6 a{
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="/" class="logo">Sunil Singh</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="/" class="active">Home</a>
+        </nav>
+    </header>
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+
+            <p>My name is Sunil Singh, currently pursuing a B.Tech in Computer Science at BK BIET Pilani. Alongside my
+                academic studies, I am deeply involved in learning Full Stack Web Development, Python programming, and
+                specialized fields like Data Science and Machine Learning. I am passionate about leveraging these
+                technologies to analyze real-world data and develop solutions to complex problems. Through this
+                portfolio, I share my projects, technical journey, and insights, demonstrating my commitment to solving
+                practical challenges and contributing to the ever-evolving field of Data Science and Machine Learning
+            </p>
+            <h6>Mobile :<a href="">6378283199</a></h6>
+            <h6>Email  : <a href="">ssbanna836@gmail.com</a></h6>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2025 by Sunil Singh | All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
